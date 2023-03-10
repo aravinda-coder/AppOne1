@@ -34,6 +34,6 @@ res.send('Express App Running');
             });
 
 //Deploying the listener
-const port = 8080;
+const port = process.env.port || 8080;
 app.listen(port, () => console.log(`Express server listening on port
 ${port}`));
