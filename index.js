@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 res.send('Express App Running');
 });
 
-/*app.get('/time', (req, res) => {
+app.get('/time', (req, res) => {
     const time = new Date();
     res.send("time is "+time);
     });
@@ -15,7 +15,7 @@ res.send('Express App Running');
     app.post('/testPostRequest', (req, res) => {
        
         res.send("server can handle psot req ");
-        });*/
+        });
 
         
     app.post('/recordOneRequest', (req, res) => {
